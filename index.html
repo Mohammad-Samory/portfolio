@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main CSS Page -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1C5TPZ8H6C"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-1C5TPZ8H6C");
+    </script>
+    <!-- End Google Analytics -->
+  </head>
+  <body>
+    <div class="page-container">
+      <!-- Start Nav -->
+      <div class="nav">
+        <div class="logo">
+          <a href="#"><h1>M</h1></a>
+          <span>Mohammad</span>
+          <span>Web Developer</span>
+        </div>
+        <div class="links">
+          <ul>
+            <a href="#about-page">
+              <li>About</li>
+            </a>
+            <a href="#projects-page">
+              <li>Projects</li>
+            </a>
+            <a href="#contact-page">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+        <div class="socials">
+          <ul>
+            <li>
+              <a
+                href="http://www.linkedin.com/in/mohammad-samory-869432331"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Mohammad-Samory" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/mohammad.samory.7/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Nav -->
+      </div>
+      <!-- Start About Me Section -->
+      <div class="about-content">
+        <h1 class="about-me"></h1>
+        <p>Front End Developer</p>
+
+        <a href="#contact-page">
+          <button class="contact-btn">Contact me!</button>
+        </a>
+      </div>
+      <!-- End About Me Section -->
+      <!-- Start My Skills -->
+      <div class="cube-box">
+        <div class="cube">
+          <div class="top">
+            <div class="menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="faces">
+            <span style="--i: 0">
+              <h2>JavaScript</h2>
+              <h2>JavaScript</h2>
+            </span>
+            <span style="--i: 1">
+              <h2>HTML</h2>
+              <h2>HTML</h2>
+            </span>
+            <span style="--i: 2">
+              <h2>CSS</h2>
+              <h2>CSS</h2>
+            </span>
+            <span style="--i: 3"></span>
+          </div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+
+      <div class="note">
+        <i class="fa-solid fa-exclamation"></i>
+        <p>The Box is Movable :)</p>
+      </div>
+
+      <!-- End My Skills -->
+    </div>
+    <div class="about-page" id="about-page">
+      <div class="pitch">
+        <div class="ce">
+          <h1 data-text="About me">About me</h1>
+        </div>
+        <p>
+          I`m entry-level front-end web developer, I am passionate about
+          creating functional and user-friendly websites using HTML, CSS, and
+          JavaScript.
+        </p>
+        <p>
+          I enjoy using my knowledge of design principles to create visually
+          appealing websites that are easy to navigate. I have experience using
+          CSS to create responsive web designs that work well on a variety of
+          devices.
+        </p>
+        <p>
+          Eager to continue learning and expanding my skills, and I am excited
+          about the opportunity to work with more advanced front-end frameworks
+          in the future.
+        </p>
+        <p>
+          I am excited about the opportunity to join a team of experienced
+          developers and contribute to the success of your projects.
+        </p>
+      </div>
+      <div class="skills-container">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+    <div class="projects-page" id="projects-page">
+      <h1>My Projects</h1>
+      <div
+        class="projects-slider"
+        data-mouse-down-at="0"
+        data-prev-percentage="0"
+      >
+        <div class="project-num">
+          <div class="pro-img">
+            <img src="images/showMatrix.png" class="image" draggable="false" />
+          </div>
+          <div class="info">
+            <div class="links-project">
+              <h4>showMatrix</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://mohammad-samory.github.io/showMatrix/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Mohammad-Samory/showMatrix"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about-project">
+              <p>
+                This project was created by fetching show data from the TVMaze
+                API, featuring the ability to browse and view details of various
+                shows, easily search for specific shows, and add and manage your
+                favorite shows for quick access.
+              </p>
+
+              <div class="lang">
+                <span>Languages Used:</span>
+                <ul>
+                  <li>
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li><i class="fa-brands fa-css3-alt"></i></li>
+                  <li>
+                    <i class="fa-brands fa-js"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-bootstrap"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-num">
+          <div class="pro-img">
+            <img src="images/youtube.png" class="image" draggable="false" />
+          </div>
+          <div class="info">
+            <div class="links-project">
+              <h4>YouTube</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://mohammad-samory.github.io/YoutubeFrontPage/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Mohammad-Samory/YoutubeFrontPage"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about-project">
+              <p>
+                This project for youtube front page, Videos on the page was
+                fetched from <span>YouTube API</span> From Daily Dose Of
+                Internet Channel
+              </p>
+
+              <div class="lang">
+                <span>Languages Used:</span>
+                <ul>
+                  <li>
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li><i class="fa-brands fa-css3-alt"></i></li>
+                  <li>
+                    <i class="fa-brands fa-js"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-num">
+          <div class="pro-img">
+            <img
+              src="images/asurascansthumb.png"
+              class="image"
+              draggable="false"
+            />
+          </div>
+          <div class="info">
+            <div class="links-project">
+              <h4>Asurascans</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://mohammad-samory.github.io/AsurascansClone/index.html"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Mohammad-Samory/AsurascansClone"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about-project">
+              <p>
+                This project was inspired by Asurascans.com website, Javascript
+                used for Dark/light mode & Slider
+              </p>
+              <div class="lang">
+                <span>Languages Used:</span>
+                <ul>
+                  <li>
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li><i class="fa-brands fa-css3-alt"></i></li>
+                  <li>
+                    <i class="fa-brands fa-js"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-num">
+          <div class="pro-img">
+            <img src="images/ecommerce.png" class="image" draggable="false" />
+          </div>
+          <div class="info">
+            <div class="links-project">
+              <h4>Ecommerce</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://mohammad-samory.github.io/Ecommerce/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Mohammad-Samory/Ecommerce"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about-project">
+              <p>
+                In this project i foucsed on using JavaScript to create add to
+                carte Items or delete with search option, the products was
+                fetched from DummyJSON.com website for fake Apis
+              </p>
+              <div class="lang">
+                <span>Languages Used:</span>
+                <ul>
+                  <li>
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li><i class="fa-brands fa-css3-alt"></i></li>
+                  <li>
+                    <i class="fa-brands fa-js"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-num">
+          <div class="pro-img">
+            <img src="images/hangmanGame.png" class="image" draggable="false" />
+          </div>
+          <div class="info">
+            <div class="links-project">
+              <h4>Hangman Game</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://mohammad-samory.github.io/HangmanGame/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Mohammad-Samory/HangmanGame"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about-project">
+              <p>
+                This project for Hangman game, was practicing on Game logic with
+                Javascript
+              </p>
+              <div class="lang">
+                <span>Languages Used:</span>
+                <ul>
+                  <li>
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li><i class="fa-brands fa-css3-alt"></i></li>
+                  <li>
+                    <i class="fa-brands fa-js"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-num">
+          <div class="pro-img">
+            <img src="images/dashthumb.png" class="image" draggable="false" />
+          </div>
+          <div class="info">
+            <div class="links-project">
+              <h4>Dashboard</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://mohammad-samory.github.io/Dashboard/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Mohammad-Samory/Dashboard"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about-project">
+              <p>
+                In this project i foucsed on using HTML & CSS to make responsive
+                Dashboard Website
+              </p>
+              <div class="lang">
+                <span>Languages Used:</span>
+                <ul>
+                  <li>
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li><i class="fa-brands fa-css3-alt"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-num">
+          <div class="pro-img">
+            <img
+              src="images/gallerythumb.png"
+              class="image"
+              draggable="false"
+            />
+          </div>
+          <div class="info">
+            <div class="links-project">
+              <h4>Gallery</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://mohammad-samory.github.io/Gallery/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Mohammad-Samory/Gallery"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about-project">
+              <p>This Project was Made with Pure HTML & CSS</p>
+              <div class="lang">
+                <span>Languages Used:</span>
+                <ul>
+                  <li>
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li><i class="fa-brands fa-css3-alt"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-num">
+          <div class="pro-img">
+            <img src="images/kasperThumb.png" class="image" draggable="false" />
+          </div>
+          <div class="info">
+            <div class="links-project">
+              <h4>Kasper</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://mohammad-samory.github.io/Kasper/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Mohammad-Samory/Kasper"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="about-project">
+              <p>This Project was Made with Pure HTML & CSS</p>
+              <div class="lang">
+                <span>Languages Used:</span>
+                <ul>
+                  <li>
+                    <i class="fa-brands fa-html5"></i>
+                  </li>
+                  <li><i class="fa-brands fa-css3-alt"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-page" id="contact-page">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p>
+          Yes Iam junior web developer, That takes every opportunity to get
+          better and learn from it!, if you have request or question, don`t
+          hesitate to use the form
+        </p>
+        <div class="form">
+          <form
+            class="main-form"
+            action="https://formsubmit.co/mohammad.samory01@gmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_captcha" value="false" />
+            <div class="info">
+              <ul>
+                <li>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="msg">
+              <ul>
+                <li>
+                  <input type="text" placeholder="Subject" name="subject" />
+                </li>
+                <li>
+                  <textarea
+                    name="massage"
+                    placeholder="Massage"
+                    name="massage"
+                  ></textarea>
+                </li>
+              </ul>
+            </div>
+            <button>Send massage!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <audio src="/audio/Typewriter Sound Effect.mp3" id="typewriter"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
